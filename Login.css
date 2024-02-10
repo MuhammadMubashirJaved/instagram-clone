@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.whitebg {
+  /* background: wheat; */
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  height: 60vh;
+  width: 50vw;
+  /* background-color: pink; */
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pic {
+  width: 30vw;
+  height: 60vh;
+  /* background-color: gray; */
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic img {
+  height: 60vh;
+}
+
+.page {
+  width: 30vw;
+  height: 60vh;
+  /* background-color: aqua; */
+  background-color: white;
+}
+.login {
+  height: 40vh;
+  width: 20vw;
+  /* background-color: papayawhip; */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid silver;
+  box-shadow: 0 0 4px silver;
+}
+.login .input {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+input {
+  margin: 3px;
+  padding: 5px;
+  width: 15vw;
+}
+.login .logo {
+  background-color: white;
+  height: 10vh;
+  width: 19.9vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login .logo img {
+  width: 10vw;
+}
+.btn {
+  margin-top: 10px;
+  background-color: rgb(84, 180, 218);
+  color: white;
+  border: 0;
+  border-radius: 3px;
+}
+.dow {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.dow #dot {
+  font-size: 14px;
+  color: gray;
+}
+.signup {
+  margin-top: 0.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid silver;
+  box-shadow: 0 0 4px silver;
+  height: 7vh;
+  width: 20vw;
+  /* background-color: brown; */
+  background-color: white;
+}
+
+.signup span {
+  color: blue;
+}
+
+.app {
+  margin-top: 1vh;
+  text-align: center;
+  height: 10vh;
+  width: 20vw;
+  /* background-color: peru; */
+  background-color: white;
+}
+.pp {
+  font-size: 16px;
+  padding-top: 1vh;
+}
+.app .dow-app {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 6vh;
+  width: 20vw;
+  background-color: white;
+}
+
+.app .dow-app img {
+  height: 40px;
+}
